@@ -1,0 +1,13 @@
+#navBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+}
+
+navLink {
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  text-decoration: dotted;
+}
