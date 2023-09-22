@@ -29,7 +29,13 @@ a.skillsSection {
 
 li.skillsForm {
   display: inline-block;
-  padding: 1px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(251, 238, 238);
+}
+li.skillsForm img {
+  display: block;
 }
 
 
