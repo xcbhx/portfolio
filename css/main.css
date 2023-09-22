@@ -1,3 +1,5 @@
+/* Header */
+
 #navBar {
   position: fixed;
   top: 0;
@@ -10,4 +12,39 @@ navLink {
   display: flex;
   justify-content: end;
   text-decoration: dotted;
+}
+
+/* About */
+
+
+
+/* Skills */
+a.skillsSection {
+  display: block;
+  font-style: italic;
+  font-size: larger;
+  text-align: center;
+  
+}
+
+li.skillsForm {
+  display: inline-block;
+  padding: 1px;
+}
+
+
+/* Project */
+
+
+
+/* Contact */
+
+
+/* Footer */
+
+
+/* Repeated Code */
+li {
+  list-style-type: none;
+  /* text-align: center; */
 }
