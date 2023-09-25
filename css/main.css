@@ -80,7 +80,19 @@ li.skillsForm img {
 
 
 /* Footer */
+img.icons {
+  height: 40px;
+}
 
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.nameCE {
+  display: flex;
+  justify-content: center;
+}
 
 /* Repeated Code */
 li {
