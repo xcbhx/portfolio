@@ -48,7 +48,16 @@ h1 {
 
 
 /* About */
+a.aboutSection {
+  display: block;
+  text-align: center;
+}
 
+.aboutP {
+  text-align: center;
+  border-style: dotted;
+  border-color: brown;
+}
 
 
 /* Skills */
