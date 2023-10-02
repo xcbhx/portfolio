@@ -82,7 +82,20 @@ li.skillsForm img {
 
 
 /* Project */
+.projectsSection{
+  display: block;
+  text-align: center;
+}
+p.projectBorder {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
 
+.projectImg {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 
 /* Contact */
