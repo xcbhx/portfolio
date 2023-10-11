@@ -95,35 +95,43 @@ li {
   display: block;
   text-align: center;
 }
-p.projectBorder {
-  text-indent: 30px;
+
+.projectImg {
+  float: left;
+  margin: 2.5%;
+  padding: 1%;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: scale-down;
 }
 
-.projectBorder {
-  border: 0.5rem solid brown;
+.projectText {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 20px;
 }
 
+.projectBorder {
+  margin: 2%;
+  border-color: brown;
+  border-style: dotted;
+  background: rgb(218, 215, 218);
+  overflow: hidden;
+}
+
+
+.product-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
 h5 {
-  color: black;
+  font-size: large;
 }
-.projectImg {
-  float: left;
-  max-width: 400px;
-  max-height: 400px;
-}
-
-
-/* .popup-description {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* visibility: hidden; */
-/* }  */
-
 
 /* Contact */
 
