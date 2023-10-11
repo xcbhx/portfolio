@@ -6,7 +6,7 @@
 }
 /* Header */
 #navBar {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -120,6 +120,7 @@ li {
   border-style: dotted;
   background: rgb(218, 215, 218);
   overflow: hidden;
+
 }
 
 
